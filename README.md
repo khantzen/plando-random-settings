@@ -6,8 +6,9 @@ This script allows its user to randomize every setting in the Randomizer, not ju
 1. Have Python 3.7 (or newer) installed. This is also a requirement of the randomizer.
 2. Download the zip file of the source code from the release page and unzip anywhere: https://github.com/matthewkirby/plando-random-settings/releases
 3. Place your Ocarina of Time 1.0 rom that you wish to use in this directory. It must have the `.z64` file extension.
-4. Run the code by double clicking `RandomSettingsGenerator.py` or running `python3 RandomSettingsGenerator.py` (or however you run python files on your system) via the command line.
-5. Your patch file will be saved in the `patches` directory.
+4. If you are under linux make sure that `randomizer/Decompress/Decompress` or `randomizer/Decompress/DecompressARM64` are executable (run `chmod +x randomizer/Decompress/Decompress` or  `chmod +x randomizer/Decompress/DecompressARM64` if not)
+5. Run the code by double clicking `RandomSettingsGenerator.py` or running `python3 RandomSettingsGenerator.py` (or however you run python files on your system) via the command line.
+6. Your patch file will be saved in the `patches` directory.
 
 ## Rolling seeds with Weight Overrides
 If you are playing a format besides an official Random Setting League race, you may wish to edit the weights. 
